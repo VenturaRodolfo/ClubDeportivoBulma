@@ -4,7 +4,8 @@ require_once 'header.php';
 //if (!$loggedin) die ("</div></body></html>");
 echo <<<_INFO
 <br><br><br><br><br><br><br>
-<img src="ImagenesClub/fondo1.jpg" align="right">
+<div class="columns is-gapless">
+  <div class="column">
     <h1 class="text">Lugares de entramiento</h1>
     <ul>
     <li class="text">Unidad deportiva del ITCH</li>
@@ -31,6 +32,12 @@ echo <<<_INFO
     <li class="text">Toro: 100$ </li>
     <li class="text">Escalante: 100$</li>
     </ul>
-    <h2 class="text">Si Desear unirte a nuesta familia <br> Haz <a href="Subs.php">Click Aquí</a></h2>     
+    <h2 class="text">Si Desear unirte a nuesta familia <br> Haz <a href="Subs.php">Click Aquí</a></h2>   
+  </div>
+  <div class="column">
+    <img src="ImagenesClub/fondo1.jpg" align="right">
+  </div>
+
+  
 _INFO;
 ?>

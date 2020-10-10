@@ -1,20 +1,23 @@
 <?php
-
+error_reporting(E_ALL ^ E_NOTICE, );
+  session_start();
+  
 echo <<<_INIT
 <!DOCTYPE html> 
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>                 
-        <link href="node_modules/bulma/css/bulma.min.css" rel="stylesheet">        
-          <script  type="module" src='node_modules/jquery/dist/jquery.min.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>      
+
+        <link href=" node_modules/bulma/css/bulma.min.css" rel="stylesheet"> 
+              
+          <script  src=' node_modules/jquery/dist/jquery.min.js'> </script>
       
-          <script  type="module" src='node_modules/jquery-mobile/js/jquery.mobile.js'></script>
+          <script  src='node_modules/jquery-mobile/js/jquery.mobile.js'></script>
         <link rel='stylesheet' href='styles.css' type='text/css'>   
-
-        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css'>
-
-        <script src='javascript.js'></script>
+       
+        
+       
 _INIT;
 
 require_once 'functions.php';
@@ -28,7 +31,7 @@ echo <<<_MAIN
      <title> Club deportivo Manaties</title>
   </head>
    <body>
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-dark  is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="Index.php?view=$userstr">
       <img src="ImagenesClub/logo1.png"  width="50" height="28">
@@ -70,13 +73,6 @@ echo <<<_MAIN
         </div>
       </div>
     </div>
-  </div>
-</nav>
-
-     <div data-role='page' id='fondo'>
-          <div data-role='header'> 
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
   </div>
 </nav>
 <br><br>

@@ -23,7 +23,7 @@ if (isset($_POST['user']))
       $_SESSION['user'] = $user; 
       $_SESSION['pass'] = $pass; 
       die("<br><center><div class='text'>You are now logged in. Please
-           <a data-transition='slide' href='Merch.php?view=$user'>click here</a> 
+           <a data-transition='slide' href='index.php?view=$user'>click here</a> 
            to continue.</div></center></body></html>"); 
      }
    }
