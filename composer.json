@@ -1,0 +1,12 @@
+{
+    "name": "fitov/clubdeportivo-bulma",
+    "description": "Sistema de club deportivo con bulma",
+    "type": "project",
+    "authors": [
+        {
+            "name": "VenturaRodolfo",
+            "email": "71725994+VenturaRodolfo@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

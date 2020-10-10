@@ -1,0 +1,24 @@
+{
+  "name": "fito.clubdeportivobulma",
+  "version": "1.0.0",
+  "description": "mi negocio de club deportivo con bulma",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenturaRodolfo/clubdeportivoBulma.git"
+  },
+  "author": "rodolfo ventura segovia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VenturaRodolfo/clubdeportivoBulma/issues"
+  },
+  "homepage": "https://github.com/VenturaRodolfo/clubdeportivoBulma#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "jquery": "^3.5.1",
+    "jquery-mobile": "^1.5.0-alpha.1"
+  }
+}
